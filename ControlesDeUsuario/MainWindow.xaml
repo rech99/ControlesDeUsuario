@@ -17,7 +17,7 @@
         </ComboBox>
         <Button x:Name="calcular" Content="Calcular" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Margin="176,83,0,0" Height="22"/>
         <TextBlock x:Name="calctxt" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="48" Width="265" Margin="10,10,0,0" FontSize="36"><Run Text="Calcular el area"/></TextBlock>
-        <TextBox x:Name="Resultado" TextWrapping="Wrap" Text="0.0" Margin="275,67,478,314" FontSize="24"/>
+        <TextBox x:Name="txtresultado" TextWrapping="Wrap" Text="0.0" Margin="275,67,478,314" FontSize="24"/>
         <Grid x:Name="grdParametrosFigura" HorizontalAlignment="Left" Height="227" VerticalAlignment="Top" Width="740" Margin="21,164,0,0"/>
 
     </Grid>

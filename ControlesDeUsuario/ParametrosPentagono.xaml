@@ -10,8 +10,8 @@
         
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,16,0,0"><Run Text="Perimetro"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Apotema" VerticalAlignment="Top" Margin="10,99,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120" Margin="0,54,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120" Margin="0,133,0,0"/>
+        <TextBox x:Name="Perimetro" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120" Margin="0,54,0,0"/>
+        <TextBox x:Name="Apotema" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120" Margin="0,133,0,0"/>
 
     </Grid>
 </UserControl>
